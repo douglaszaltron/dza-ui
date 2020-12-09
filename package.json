@@ -2,8 +2,7 @@
     "name": "dza-ui-monorepo",
     "private": true,
     "workspaces": [
-        "packages/core",
-        "packages/*/*"
+        "packages/*"
     ],
     "scripts": {
         "build": "lerna run build",

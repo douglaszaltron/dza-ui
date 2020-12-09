@@ -1,6 +1,7 @@
 {
     "name": "@dza-ui/core",
     "version": "1.0.0",
+    "private": false,
     "description": "React components that implement Design System",
     "main": "dist/index.js",
     "umd:main": "dist/core.umd.production.js",
@@ -33,5 +34,5 @@
         "url": "https://github.com/douglaszaltron/dza-ui/issues"
     },
     "homepage": "https://github.com/douglaszaltron/dza-ui#readme",
-    "gitHead": "08fb7c17e24dc9de5a2f054790cf5eed77a0ed63"
+    "gitHead": "88b8943371786d4b1eeedd02a34d7e6a259fc2da"
 }
