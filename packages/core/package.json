@@ -19,7 +19,6 @@
     "peerDependencies": {
         "react": "*"
     },
-    "devDependencies": {},
     "repository": {
         "type": "git",
         "url": "git+https://github.com/douglaszaltron/dza-ui.git"
