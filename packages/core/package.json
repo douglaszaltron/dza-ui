@@ -1,6 +1,6 @@
 {
     "name": "@dza-ui/core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": false,
     "description": "React components that implement Design System",
     "main": "dist/index.js",
