@@ -2,5 +2,5 @@ const config = require('../../.eslintrc');
 
 module.exports = {
     ...config,
-    ignorePatterns: ['node_modules'],
+    ignorePatterns: ['dist', 'node_modules'],
 };
