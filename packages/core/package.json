@@ -1,0 +1,37 @@
+{
+    "name": "@dza-ui/core",
+    "version": "1.0.0",
+    "description": "React components that implement Design System",
+    "main": "dist/index.js",
+    "umd:main": "dist/core.umd.production.js",
+    "module": "dist/core.esm.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "yarn run clean && yarn run compile",
+        "clean": "rimraf -rf ./dist",
+        "compile": "tsdx build --tsconfig tsconfig.build.json",
+        "prepublishOnly": "yarn run build",
+        "test": "yarn run build"
+    },
+    "peerDependencies": {
+        "react": "*"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/douglaszaltron/dza-ui.git"
+    },
+    "keywords": [
+        "react",
+        "design system"
+    ],
+    "author": "Douglas Zaltron",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/douglaszaltron/dza-ui/issues"
+    },
+    "homepage": "https://github.com/douglaszaltron/dza-ui#readme"
+}
