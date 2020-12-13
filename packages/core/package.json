@@ -36,5 +36,8 @@
         "url": "https://github.com/douglaszaltron/dza-ui/issues"
     },
     "homepage": "https://github.com/douglaszaltron/dza-ui#readme",
-    "gitHead": "6705375e7e172e415e81c0073b8f093d6af9d06b"
+    "gitHead": "6705375e7e172e415e81c0073b8f093d6af9d06b",
+    "dependencies": {
+        "@material-ui/core": "^4.11.2"
+    }
 }
