@@ -29,7 +29,7 @@ module.exports = {
         jest: true,
         serviceworker: true,
     },
-    ignorePatterns: ['build', '.*.js', '*.config.js', 'node_modules'],
+    ignorePatterns: ['dist', '.*.js', '*.config.js', 'node_modules'],
     rules: {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-use-before-define': 'warn',
