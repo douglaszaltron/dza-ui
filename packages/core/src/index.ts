@@ -1,3 +1,4 @@
 /* eslint-disable import/export */
-export { default as Button } from './Button';
+export * from './Badge';
 export * from './Button';
+export * from './Chip';
