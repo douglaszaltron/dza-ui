@@ -15,9 +15,11 @@ const Chip = forwardRef<ChipRef, ChipProps>((props, ref) => {
     if (color === 'error') {
         theme = createMuiTheme({ palette: { primary: theme.palette.error } });
     }
+
     if (color === 'success') {
         theme = createMuiTheme({ palette: { primary: theme.palette.success } });
     }
+
     if (color === 'info') {
         theme = createMuiTheme({ palette: { primary: theme.palette.info } });
     }

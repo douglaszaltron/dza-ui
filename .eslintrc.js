@@ -19,9 +19,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/typescript',
         'plugin:jest/recommended',
-        'prettier',
-        'prettier/@typescript-eslint',
-        'prettier/react',
+        'plugin:prettier/recommended',
     ],
     env: {
         node: true,
@@ -38,7 +36,7 @@ module.exports = {
         'import/no-useless-path-segments': ['error', { noUselessIndex: true }],
         'import/prefer-default-export': 'off',
         'react/destructuring-assignment': 'off',
-        'react/jsx-props-no-spreading': 'warn',
+        'react/jsx-props-no-spreading': 'off',
         'react/prop-types': 'off',
     },
 };
